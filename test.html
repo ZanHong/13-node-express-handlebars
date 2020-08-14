@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>testing</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/cats.js"></script>
+    <style>
+        body {
+            background-color: #c0c0c0;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        li {
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .container {
+            max-width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./public/assets/image/burger.png" alt="burger cartoon figure">
+    <h1>Eat Da Burger!</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Burger 1
+                        <button type="submit" class="btn btn-secondary">Devour It!</button>
+                    </li>
+                    <li class="list-group-item">Burger 2
+                        <button type="submit" class="btn btn-secondary">Devour It!</button>
+                    </li>
+                    <li class="list-group-item">Burger 3
+                        <button type="submit" class="btn btn-secondary">Devour It!</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item disabled"> Burger 4</li>
+                    <li class="list-group-item disabled"> Burger 5</li>
+                    <li class="list-group-item disabled"> Burger 6</li>
+                </ul>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <form class="col-md-6 align-items-center ">
+                <div class="form-group">
+                    <label for="burger_input">Enter the burger that you want to eat and click the submit button!</label>
+                    <input type="text" class="form-control" id="burger_input">
+                </div>
+                <button type="submit" class="btn btn-secondary">Add Burger!</button>
+            </form>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
