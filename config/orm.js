@@ -1,17 +1,6 @@
 var connection = require("../config/connection.js");
 const { query } = require("express");
 
-// A helper function for SQL queries that prints the number of question marks as a string based on the length of the input array
-// For example: converting ["?", "?", "?"] to "?,?,?"
-// function printQuestionMarks(num) {
-//     var arr = [];
-
-//     for (var i = 0; i < num.length; i++) {
-//         arr.push("?");
-//     }
-//     return arr.toString();
-// };
-
 // A helper function that converts object key:value to SQL syntax
 function objToSql(ob) {
     var arr = [];
