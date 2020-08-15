@@ -19,6 +19,7 @@ npm install
 1. Click [here](https://sleepy-hollows-06121.herokuapp.com/) to launch the application
 2. Run "node server.js" or "npm start" in the terminal, then ctrl+click on the shown link. Be sure to navigate to the project folder before doing so
 
+### Steps
 - To make yourself a burger, type in the name of the burger in the input section and click the "Add Burger!" button just below it
 - Created burgers will have "Omnomnom" buttons next to it. Click it to devour the burger!
 
